@@ -1,0 +1,35 @@
+// variables
+$primary-color: #310;
+$base-color: #c6538c;
+$border-dark: rgba($base-color, 0.88);
+$font-stack: Helvetica, sans-serif;
+
+// mixins
+@mixin full(){
+    width: 100%;
+    height: 100%;
+}
+
+.alert {
+  border: 1px solid $border-dark;
+}
+
+body{
+    font: 100% $font-stack ;
+    color: $primary-color;
+}
+
+div{
+    &:hover{
+        color: orange;
+    }
+    color: $primary-color;
+}
+
+// nesting
+.box{
+    @include full();
+    h1{
+        font-size: 20px;
+    }
+}

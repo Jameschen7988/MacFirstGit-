@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的主畫面</title>
+</head>
+<body>
+    <h1>網頁的主畫面</h1>
+    <form action="/calculate", method='POST' >
+     數字 <input type="text" name="max">
+     <button>計算結果</button>
+    </form>
+    <hr/>
+    <form action="/show">
+        姓名 <input type="text" name="name"> 
+        <!-- 這裡的n 會是 query string  的參數名稱 ?name='使用者打的字' -->
+        <button>點擊送出表單</button>
+    </form>
+    <hr/>
+    <a href="/page">到page頁 </a>
+    <br/>
+    <img src="/Tower.webp"/>
+        <!-- 他是兩次的請求作出網頁 one for the page, the others for pic -->
+
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+.alert {
+  border: 1px solid rgba(198, 83, 140, 0.88);
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #310;
+}
+
+div {
+  color: #310;
+}
+div:hover {
+  color: orange;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+.box h1 {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=s.css.map */
